@@ -37,14 +37,14 @@ void loop()
   DisableMotors();
   delay(1000 * 5);
   
-  // TODO: Move the Rover forward 2 meters 
+  // Move the Rover forward 2 meters 
   
   
-  //Serial.print("Left Counter: ");
-  //Serial.println(leftCounter);
+  Serial.print("Left Counter: ");
+  Serial.println(leftCounter);
   
-  //Serial.print("Right Counter: ");
-  //Serial.println(rightCounter);
+  Serial.print("Right Counter: ");
+  Serial.println(rightCounter);
 }
 
 void SetupPins(){
